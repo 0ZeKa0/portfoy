@@ -29,13 +29,16 @@ header p {
     font-size: 1.2em;
 }
 
+
 .container1 {
     padding-top: 7%;
     width: 80%;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .container {
+    max-width: 1000px;
     width: 80%;
     margin: 0 auto;
 }
@@ -48,7 +51,11 @@ section {
 h2 {
     color: #333;
 }
-
+#projects {
+    padding: 20px;
+    height: 500px; /* İçerik yüksekliği belirlendi */
+    overflow: auto; /* İçeriğin aştığı durumda scrollbar göster */
+}
 .project {
     background-color: #272121;
     color: #fff;

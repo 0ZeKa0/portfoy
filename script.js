@@ -6,3 +6,4 @@ function changeColor(element) {
 function resetColor(element) {
     element.style.backgroundColor = "#272121";
 }
+
