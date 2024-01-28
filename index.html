@@ -5,35 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portföy</title>
     <link rel="stylesheet" href="style.css">
+    <script src="dil.js" defer></script>
+
 </head>
 <body>
 
     <header>
+        <div class="buttons">
+            <button onclick="changeLanguage('tr')">🇹🇷 </button>
+            <button onclick="changeLanguage('en')">🇺🇸</button>
+        </div>
         <div class="header">
-            <h1>Zehra Karakaya</h1>
-            <p>Software Engineer</p>
+            <div class="personal">
+                <h1 id="baslik"></h1>
+                <p id="aciklama"></p>
+            </div>
+            
         </div>
     </header>
 
     <section id="about">
         <div class="container1">
-            <h2>Hakkımda</h2>
-            <p>
-                Merhaba! Ben Zehra Karakaya. Lisans eğitimimi Atatürk Üniversitesi <b> Bilgisayar Mühendisliği </b> bölümünde tamamladım ve o zamandan beri çeşitli projelerde yer aldım.
-                Web geliştirmeye olan tutkum, nesnelerin interneti (IoT) dünyasına olan ilgimle birleşti.
-                IoT, teknolojinin sınırlarını zorlama ve günlük yaşamı daha akıllı hale getirme potansiyeliyle beni derinden etkiliyor.
+            <h2 id="hakkimda"></h2>
+            <p id="hakkimdaprag1">
             </p>
-            <p>
-                Bu alanda aldığım eğitimler ve gerçekleştirdiğim projeler, bu heyecan verici teknolojiyle nasıl etkileşimde bulunduğumu gösteriyor.
-                Hem donanım hem de yazılım alanlarında kendimi sürekli geliştirmeye odaklanarak, IoT projelerinde benzersiz çözümler üretmeye çalışıyorum.
+            <p id="hakkimdaprag2">
             </p>
-            <p>
-                Gömülü IoT sistemlerini ve IoT güvenliğini içeren çeşitli eğitimler aldım ve bu süreçte M2M ve Otonom araçlarda IoT kullanımı projelerini gerçekleştirdim.
-                Her bir proje, IoT'nin gücünü kullanarak nasıl sorunlara çözüm getirebileceğimizi keşfetme fırsatı sağladı.
+            <p id="hakkimdaprag3">
             </p>
-            <p>
-                Gelecekte, nesnelerin internetiyle ilgili daha fazla yenilikçi projeye katılmak ve bu alanda derinlemesine çalışmak istiyorum.
-                Eğer benimle aynı tutkuyu paylaşıyorsanız veya birlikte çalışabileceğimiz projeler biliyorsanız, lütfen <b><i>zehrakarakayabm@gmail.com </i></b> üzerinden bana ulaşın.
+            <p id="hakkimdaprag4">
             </p>
         </div>
     </section>
@@ -41,59 +41,54 @@
 
     <section id="projects">
         <div class="container">
-            <h2>Projeler</h2>
-            <div class="project" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
-                <h3>Portföy Web Sitesi</h3>
-                <p>
-                    Kişisel portföy web sitem, benim dijital varlığımı sergilemek ve benimle ilgilenenlerle bağlantı kurmak için tasarlandı.
-                    Bu projeyi oluştururken, modern tasarım ilkelerini ve kullanıcı deneyimini öncelikli kılmaya çalıştım.
-                </p>
-                <p>
-                    Web sitemde, yaptığım projeleri ve edindiğim yetenekleri detaylı bir şekilde sunarak, potansiyel işverenlere ve iş ortaklarına
-                    nasıl değer katabileceğimi göstermeyi amaçladım. HTML, CSS ve JavaScript ile oluşturulan bu web sitesi, responsive bir tasarıma
-                    sahiptir ve farklı cihazlarda rahatlıkla görüntülenebilir.
-                </p>
-                <p>
-                    Web sitem, ziyaretçilere interaktif bir deneyim sunmak amacıyla özel olarak geliştirilmiş animasyonlar ve geçiş efektleri
-                    içerir ve bu site, benimle iletişim kurmak isteyen kişilere bir kapı aralamak için tasarlanmıştır.
-                </p>
-                <a href="#" target="_blank">Detaylar</a>
+            <h2 id="projeler"></h2>
+            <div class="container2">
+                <div class="project" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
+                    <h3 id="port"></h3>
+                    <p id="portdef1"> 
+                    </p>
+                    <p id="portdef2">
+                    </p>
+                    <p id="portdef3">
+                    </p>
+                    <a href="#" target="_blank" id="detay"></a>
+                </div>
+                <div class="project" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
+                    <h3 id="csharp"></h3>
+                    <p id="description">
+                    </p>
+                    <a href="https://github.com/0ZeKa0/veri-yapilari-algoritmalar" target="_blank" id="git"></a>
+                </div>
             </div>
-            <div class="project" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
-                <h3>C# ile Veri Yapıları ve Algoritmalar</h3>
-                <p>
-                    Bilgisayar mühendisliğinde kullanılan temel veri yapıları ve algoritmaları C# ile örneklendirildi ve bu örneklendirmeler organize edildi.
-                    Repo içinde güncellemeler devam ediyor.
-                </p>
-                <a href="https://github.com/0ZeKa0/veri-yapilari-algoritmalar" target="_blank">GitHub Repo</a>
-            </div>
-            <!-- Diğer projeleri ekleyin -->
-            
         </div>
     </section>
 
 
     <section id="skills">
         <div class="container">
-            <h2>Yetenekler</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>ASP .NET</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>C</li>
-                <li>SQL</li>
-                <li>Kotlin</li>
-                <!-- Diğer yetenekleri ekleyin -->
-            </ul>
+            <div class="nestedcontainer">
+                <div class="yetenekler">
+                    <h2 id="skill"></h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>ASP .NET</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>C</li>
+                        <li>SQL</li>
+                        <li>Kotlin</li>
+                        <!-- Diğer yetenekleri ekleyin -->
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="contact">
         <div class="container">
-            <h2>İletişim</h2>
+            <h2 id="iletisim"></h2>
             <p>E-posta: zehrakarakayabm@gmail.com</p>
         </div>
     </section>
@@ -103,7 +98,6 @@
             <p>&copy; 2024 Zehra Karakaya</p>
         </div>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>

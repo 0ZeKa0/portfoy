@@ -1,5 +1,3 @@
-/* style.css */
-
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -8,6 +6,9 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: sticky;
     background-color: #363333;
     color: #fff;
@@ -29,6 +30,31 @@ header p {
     font-size: 1.2em;
 }
 
+.buttons {
+    display: flex;
+    align-items: flex-start;
+}
+
+button{
+    border-radius: 8px;
+    background-color: #e16428; 
+    color: white;
+    border: 0.2;
+    padding-left: 5px;
+    border-color: #272121;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Yatayda ortala */
+    flex-grow: 1; /* Uzunluğunu tam olarak kapla */
+}
+
+.personal {
+    text-align: center;
+    /* Diğer stillendirmeleri ekleyebilirsiniz */
+}
 
 .container1 {
     padding-top: 7%;
@@ -42,6 +68,13 @@ header p {
     width: 80%;
     margin: 0 auto;
 }
+.container2{
+    height: 500px; /* İçerik yüksekliği belirlendi */
+    overflow: auto; /* İçeriğin aştığı durumda scrollbar göster */
+}
+.container2::-webkit-scrollbar{
+    width: 0;  /* scrollbarı görsel olarak yok etmek için kullanılır*/
+}
 
 
 section {
@@ -51,11 +84,7 @@ section {
 h2 {
     color: #333;
 }
-#projects {
-    padding: 20px;
-    height: 500px; /* İçerik yüksekliği belirlendi */
-    overflow: auto; /* İçeriğin aştığı durumda scrollbar göster */
-}
+
 .project {
     background-color: #272121;
     color: #fff;
@@ -74,6 +103,13 @@ h2 {
 .project a:hover {
     text-decoration: underline;
 }
+.nestedcontainer{
+    overflow: hidden; /*taşmanın önlenmesi için eklendi*/
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 200px;
+    grid-gap: 10px;
+}
 
 footer {
     background-color: #333;
@@ -81,5 +117,3 @@ footer {
     text-align: center;
     padding: 1em 0;
 }
-
-/* Diğer stil özelliklerini ekleyin */
