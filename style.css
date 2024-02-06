@@ -4,6 +4,9 @@ body {
     padding: 0;
     background-color: #f6e9e9;
 }
+ul {
+    list-style-type: none; /* Maddeleme noktalarını kaldırır */
+  }
 
 header {
     display: flex;
@@ -92,6 +95,8 @@ h2 {
     padding: 30px;
     margin-bottom: 30px;
     transition: background-color 0.3s ease;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5); /* X-offset, Y-offset, blur radius, spread radius, color */
+
 }
 
 .project a {
@@ -103,17 +108,29 @@ h2 {
 .project a:hover {
     text-decoration: underline;
 }
-.nestedcontainer{
-    overflow: hidden; /*taşmanın önlenmesi için eklendi*/
-    display: grid;
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 200px 200px;
-    grid-gap: 10px;
-}
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em 0;
+}
+
+.nestedcontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 sütun */
+    grid-template-rows: repeat(2, 1fr); /* 2 satır */
+    gap: 10px; /* Kutular arasındaki boşluk */
+}
+
+.yetenekler{
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5); /* X-offset, Y-offset, blur radius, spread radius, color */
+  background-color: #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
 }
