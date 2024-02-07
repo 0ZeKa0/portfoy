@@ -3,7 +3,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f6e9e9;
+    background-image: url('indir.gif'); /* Path to your background image */
+    background-size: cover; /* Scale the image to cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
 }
+
 ul {
     list-style-type: none; /* Maddeleme noktalarını kaldırır */
   }
@@ -33,6 +38,11 @@ header p {
     font-size: 1.2em;
 }
 
+footer{
+    background-color: #363333;
+    color: #fff;
+    text-align: center;
+}
 .buttons {
     display: flex;
     align-items: flex-start;
@@ -60,20 +70,35 @@ button{
 }
 
 .container1 {
-    padding-top: 7%;
+    padding-top: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
+    border: 1px solid #ccc; /* Çerçeve rengi ve kalınlığı */
+    border-radius: 10px; /* Çerçeve kenar yuvarlaması */
+    backdrop-filter: blur(10px); /* Bulanıklık miktarı */
+    background-color: rgba(255, 255, 255, 0.5); /* Bulanıklık rengi ve opaklığı */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opsiyonel: Gölge efekti */
 }
 
 .container {
+    padding-left: 3%;
+    padding-right: 3%;
     max-width: 1000px;
     width: 80%;
     margin: 0 auto;
+    border: 1px solid #ccc; /* Çerçeve rengi ve kalınlığı */
+    border-radius: 10px; /* Çerçeve kenar yuvarlaması */
+    backdrop-filter: blur(10px); /* Bulanıklık miktarı */
+    background-color: rgba(255, 255, 255, 0.5); /* Bulanıklık rengi ve opaklığı */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opsiyonel: Gölge efekti */
 }
 .container2{
     height: 500px; /* İçerik yüksekliği belirlendi */
     overflow: auto; /* İçeriğin aştığı durumda scrollbar göster */
+    
 }
 .container2::-webkit-scrollbar{
     width: 0;  /* scrollbarı görsel olarak yok etmek için kullanılır*/
