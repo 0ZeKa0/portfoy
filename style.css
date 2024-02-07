@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f6e9e9;
-    background-image: url('indir.gif'); /* Path to your background image */
+    background-image: url('giff.gif'); /* Path to your background image */
     background-size: cover; /* Scale the image to cover the entire background */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
