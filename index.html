@@ -90,6 +90,11 @@
                 </div>
                 <div class="yetenekler" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
                     <ul class="skills-list">
+                        <li id="problem"></li>
+                        <li id="ana"></li>
+                        <li id="per"></li>
+                        <li id="time"></li>
+                        <li id="empati"></li>
                     </ul>
                    
                 </div> <div class="yetenekler" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
@@ -114,7 +119,17 @@
     <section id="contact">
         <div class="container">
             <h2 id="iletisim"></h2>
-            <p>E-posta: zehrakarakayabm@gmail.com</p>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> E-posta: zehrakarakayabm@gmail.com</p>
+            </div>
+            <div class="message-form">
+                <h3 id="mes"></h3>
+                <form id="contactForm">
+                    <input type="email" id="email" placeholder="Your email" required>
+                    <textarea id="message" placeholder="Your message" required></textarea>
+                    <button type="submit" id="s"></button>
+                </form>
+            </div>
         </div>
     </section>
 
@@ -123,6 +138,7 @@
             <p>&copy; 2024 Zehra Karakaya</p>
         
     </footer>
+    <script src="mailto.js">S</script>
     <script src="script.js"></script>
 </body>
 </html>

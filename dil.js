@@ -19,7 +19,14 @@ const dil = {
         description:" Kullanılan temel veri yapıları ve algoritmaları C# ile örneklendirildi ve bu örneklendirmeler organize edildi. Repo içinde güncellemeler devam ediyor.",
         git:"GitHub Repo",
         skill:"Yetenekler",
-        iletisim:"İletişim"
+        iletisim:"İletişim",
+        time:"Zaman Yönetimi",
+        empati:"Empati Kurma ve Dinleme",
+        problem:"Problem Çözme",
+        ana:"Analitik Düşünme",
+        per:"Mükemmelliyetçilik ve Detay Odaklılık",
+        mes:"Mesajınızı İletin",
+        s:"Gönder"
     },
     en: {
         baslik: "Zehra Karakaya",
@@ -39,7 +46,14 @@ const dil = {
         description:" Fundamental data structures and algorithms were exemplified with C# and organized within this repository. Updates are ongoing within the repository.",
         git:"GitHub Repo",
         skill:"Skills",
-        iletisim:"Contact"
+        iletisim:"Contact",
+        time:"Time Management",
+        empati:"Empathy and Active Listening",
+        problem:"Problem-Solving Ability",
+        ana:"Analytical Thinking",
+        per:"Excellence and Attention to Detail",
+        mes:"Leave a Message",
+        s:"Send"
     }
 };
 function changeLanguage(lang) {
