@@ -26,14 +26,17 @@ const dil = {
         ana:"Analitik Düşünme",
         per:"Mükemmelliyetçilik ve Detay Odaklılık",
         mes:"Mesajınızı İletin",
-        s:"Gönder"
+        s:"Gönder",
+        description2:"Geliştirdiğim repo içerisinde Python dilini kullanarak girilen pozitif tamsayıların toplamının ve çarpımının matematiksel analizini gerçekleştirdim. Bu analizlerde Big O notasyonunu kullanarak algoritmanın performansını anlamayı ve optimize etmeyi hedefledim. Ayrıca, Theta ve Omega notasyonlarıyla daha karmaşık analizleri farklı programlama dilleriyle de yaparak, projenin farklı boyuttaki girdilere nasıl tepki vereceğini incelemeyi ve projeyi daha ileriye götürmeyi amaçlıyorum. Oluşturduğum repo açık kaynaklı ve katkılara açıktır.",
+        complexity:"Python ile Pozitif Tamsayıların Matematiksel Analizi ve Performans Optimizasyonu: Big O ve Ötesi"
+    
     },
     en: {
         baslik: "Zehra Karakaya",
         aciklama: "Software Engineer",
         hakkimda: "About me",
         hakkimdaprag1:"Hello! I am Zehra Karakaya. I completed my undergraduate education at Atatürk University Computer Engineering department and since then I have been involved in various projects. My passion for web development has merged with my interest in the world of the internet of things (IoT). IoT fascinates me deeply with its potential to push the boundaries of technology and make everyday life smarter.",
-        hakkimdaprag2:"The training I received and the projects I carried out in this field show how I interact with this exciting technology. By focusing on continuous improvement in both hardware and software fields, I try to produce unique solutions in IoT projects.",
+        hakkimdaprag2:"The training I received and the projects I carried out in this field demonstrate how I interact with this exciting technology. By focusing on continuous improvement in both hardware and software fields, I try to produce unique solutions in IoT projects.",
         hakkimdaprag3:"I received various trainings including embedded IoT systems and IoT security, and during this period, I carried out projects on the use of IoT in M2M and Autonomous vehicles. Each project provided an opportunity to explore how we can solve problems using the power of IoT.",   
         hakkimdaprag4:"In the future, I would like to participate in more innovative projects related to the Internet of Things and study in depth in this field. If you share the same passion as me or know projects we can work on together, please contact me via zehrakarakayabm@gmail.com.",
         projeler:"Projects",
@@ -53,7 +56,10 @@ const dil = {
         ana:"Analytical Thinking",
         per:"Excellence and Attention to Detail",
         mes:"Leave a Message",
-        s:"Send"
+        s:"Send",
+        description2:"I have developed a repository where I analyze the mathematical properties of the sum and product of positive integers entered using the Python language. My aim is to understand and optimize the algorithm's performance using Big O notation. Furthermore, I intend to advance the project by conducting more complex analyses using Theta and Omega notations with different programming languages, and examining how the project responds to inputs of varying sizes. The repository I have created is open-source and open to contributions.",
+        complexity:"Mathematical Analysis and Performance Optimization of Positive Integers with Python: Big O and Beyond"
+   
     }
 };
 function changeLanguage(lang) {
