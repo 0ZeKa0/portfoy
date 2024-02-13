@@ -28,7 +28,8 @@ const dil = {
         mes:"Mesajınızı İletin",
         s:"Gönder",
         description2:"Geliştirdiğim repo içerisinde Python dilini kullanarak girilen pozitif tamsayıların toplamının ve çarpımının matematiksel analizini gerçekleştirdim. Bu analizlerde Big O notasyonunu kullanarak algoritmanın performansını anlamayı ve optimize etmeyi hedefledim. Ayrıca, Theta ve Omega notasyonlarıyla daha karmaşık analizleri farklı programlama dilleriyle de yaparak, projenin farklı boyuttaki girdilere nasıl tepki vereceğini incelemeyi ve projeyi daha ileriye götürmeyi amaçlıyorum. Oluşturduğum repo açık kaynaklı ve katkılara açıktır.",
-        complexity:"Python ile Pozitif Tamsayıların Matematiksel Analizi ve Performans Optimizasyonu: Big O ve Ötesi"
+        complexity:"Python ile Pozitif Tamsayıların Matematiksel Analizi ve Performans Optimizasyonu: Big O ve Ötesi",
+        git2:"Github Repo"
     
     },
     en: {
@@ -58,7 +59,8 @@ const dil = {
         mes:"Leave a Message",
         s:"Send",
         description2:"I have developed a repository where I analyze the mathematical properties of the sum and product of positive integers entered using the Python language. My aim is to understand and optimize the algorithm's performance using Big O notation. Furthermore, I intend to advance the project by conducting more complex analyses using Theta and Omega notations with different programming languages, and examining how the project responds to inputs of varying sizes. The repository I have created is open-source and open to contributions.",
-        complexity:"Mathematical Analysis and Performance Optimization of Positive Integers with Python: Big O and Beyond"
+        complexity:"Mathematical Analysis and Performance Optimization of Positive Integers with Python: Big O and Beyond",
+        git2:"GitHub Repo"
    
     }
 };
