@@ -29,15 +29,6 @@ header {
     z-index: 1000;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2em;
-}
-
-header p {
-    margin: 0;
-    font-size: 1.2em;
-}
 
 footer{
     background-color: #363333;
@@ -159,10 +150,12 @@ footer {
 }
 
 .yetenekler{
+    overflow: auto;
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5); /* X-offset, Y-offset, blur radius, spread radius, color */
   background-color: #272121;
   border-radius: 8px;
   text-align: center;
+  padding-right: 30px;
   color: white;
   font-size: 20px;
   text-shadow: 2px 2px 1px rgba(135, 132, 132, 0.5); /* X-offset, Y-offset, blur radius, color */
@@ -215,3 +208,67 @@ img {
 .message-form button:hover {
     background-color: #e16428; 
 }
+
+p {
+    font-size: 16px; /* Başlangıç metin boyutu */
+}
+
+h1 {
+    font-size: 25px; /* Başlangıç metin boyutu */
+}
+h2 {
+    font-size: 23px; /* Başlangıç metin boyutu */
+}
+h3 {
+    font-size: 20px; /* Başlangıç metin boyutu */
+}
+li{
+    font-size: 20px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+a{
+    font-size: 25px; /* Başlangıç metin boyutu */
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 9px; /* Küçük ekranlarda metin boyutunu küçült */
+    }
+    h1{
+        font-size: 13px;
+    }
+    h2{
+        font-size: 12px;
+
+    }
+    h3{
+        font-size: 11px;
+
+    }
+    li{
+        font-size: 10px;
+    }
+    header h1{
+        font-size: 15px;
+    }
+    header p{
+        font-size: 12px;
+
+    }
+    a{
+        font-size: 13px;
+    }
+}
+
+
+
+
+
