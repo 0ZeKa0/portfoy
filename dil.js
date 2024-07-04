@@ -3,8 +3,6 @@ let defaultdil = 'tr';
 const dil = {
     tr: {
         baslik: "Zehra Karakaya",
-        hakkimda: "Hakkımda",
-        hakkimdaprag1:"Merhaba! Ben Zehra Karakaya. Lisans eğitimimi Atatürk Üniversitesi Bilgisayar Mühendisliği bölümünde tamamladım ve o zamandan beri çeşitli projelerde yer aldım. Web geliştirmeye olan tutkum, nesnelerin interneti (IoT) dünyasına olan ilgimle birleşti. IoT, teknolojinin sınırlarını zorlama ve günlük yaşamı daha akıllı hale getirme potansiyeliyle beni derinden etkiliyor.",
         projeler:"Projeler",
         port:"Portföy Web Sitesi",
         portdef1:"Kişisel portföy web sitem, benim dijital varlığımı sergilemek ve benimle ilgilenenlerle bağlantı kurmak için tasarlandı. Bu projeyi oluştururken, modern tasarım ilkelerini ve kullanıcı deneyimini öncelikli kılmaya çalıştım.",
@@ -30,8 +28,6 @@ const dil = {
     },
     en: {
         baslik: "Zehra Karakaya",
-        hakkimda: "About me",
-        hakkimdaprag1:"Hello! I am Zehra Karakaya. I completed my undergraduate education at Atatürk University Computer Engineering department and since then I have been involved in various projects. My passion for web development has merged with my interest in the world of the internet of things (IoT). IoT fascinates me deeply with its potential to push the boundaries of technology and make everyday life smarter.",
         projeler:"Projects",
         port:"Portfolio Website",
         portdef1:"My personal portfolio website was designed to showcase my digital presence and connect with those interested in me. When creating this project, I tried to prioritize modern design principles and user experience.",
