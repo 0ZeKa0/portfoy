@@ -23,7 +23,10 @@ const dil = {
         s:"Gönder",
         description2:"Geliştirdiğim repo içerisinde Python dilini kullanarak girilen pozitif tamsayıların toplamının ve çarpımının matematiksel analizini gerçekleştirdim. Bu analizlerde Big O notasyonunu kullanarak algoritmanın performansını anlamayı ve optimize etmeyi hedefledim. Ayrıca, Theta ve Omega notasyonlarıyla daha karmaşık analizleri farklı programlama dilleriyle de yaparak, projenin farklı boyuttaki girdilere nasıl tepki vereceğini incelemeyi ve projeyi daha ileriye götürmeyi amaçlıyorum. Oluşturduğum repo açık kaynaklı ve katkılara açıktır.",
         complexity:"Python ile Pozitif Tamsayıların Matematiksel Analizi ve Performans Optimizasyonu: Big O ve Ötesi",
-        git2:"Github Repo"
+        git2:"Github Repo",
+        hakkimdaprag2:"Bu alanda aldığım eğitimler ve gerçekleştirdiğim projeler, bu heyecan verici teknolojiyle nasıl etkileşimde bulunduğumu gösteriyor. Hem donanım hem de yazılım alanlarında kendimi sürekli geliştirmeye odaklanarak, IoT projelerinde benzersiz çözümler üretmeye çalışıyorum.",
+        hakkimdaprag3:"Gömülü IoT sistemlerini ve IoT güvenliğini içeren çeşitli eğitimler aldım ve bu süreçte M2M ve Otonom araçlarda IoT kullanımı projelerini gerçekleştirdim. Her bir proje, IoT'nin gücünü kullanarak nasıl sorunlara çözüm getirebileceğimizi keşfetme fırsatı sağladı.",
+        hakkimdaprag4:"Gelecekte, nesnelerin internetiyle ilgili daha fazla yenilikçi projeye katılmak ve bu alanda derinlemesine çalışmak istiyorum. Eğer benimle aynı tutkuyu paylaşıyorsanız veya birlikte çalışabileceğimiz projeler biliyorsanız, lütfen zehrakarakayabm@gmail.com üzerinden bana ulaşın.",
     
     },
     en: {
@@ -48,7 +51,10 @@ const dil = {
         s:"Send",
         description2:"I have developed a repository where I analyze the mathematical properties of the sum and product of positive integers entered using the Python language. My aim is to understand and optimize the algorithm's performance using Big O notation. Furthermore, I intend to advance the project by conducting more complex analyses using Theta and Omega notations with different programming languages, and examining how the project responds to inputs of varying sizes. The repository I have created is open-source and open to contributions.",
         complexity:"Mathematical Analysis and Performance Optimization of Positive Integers with Python: Big O and Beyond",
-        git2:"GitHub Repo"
+        git2:"GitHub Repo",
+            hakkimdaprag2:"The training I received and the projects I carried out in this field demonstrate how I interact with this exciting technology. By focusing on continuous improvement in both hardware and software fields, I try to produce unique solutions in IoT projects.",
+        hakkimdaprag3:"I received various trainings including embedded IoT systems and IoT security, and during this period, I carried out projects on the use of IoT in M2M and Autonomous vehicles. Each project provided an opportunity to explore how we can solve problems using the power of IoT.",   
+        hakkimdaprag4:"In the future, I would like to participate in more innovative projects related to the Internet of Things and study in depth in this field. If you share the same passion as me or know projects we can work on together, please contact me via zehrakarakayabm@gmail.com.",
    
     }
 };
